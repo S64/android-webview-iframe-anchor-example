@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
                         Outer
                         <iframe
                             style="margin: 10px;"
-                            src="data:text/html,${INNER_HTML.htmlEncode()}"/>
+                            src="data:text/html,${INNER_HTML.htmlEncode()}"></iframe>
                         Outer
                     </body>
                 </html>
