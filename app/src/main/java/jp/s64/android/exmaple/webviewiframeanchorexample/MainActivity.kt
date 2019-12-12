@@ -43,9 +43,11 @@ class MainActivity : AppCompatActivity() {
                         <meta charset="utf-8"/>
                     </head>
                     <body>
+                        Outer
                         <iframe
                             style="margin: 10px;"
                             src="data:text/html,${INNER_HTML.htmlEncode()}"/>
+                        Outer
                     </body>
                 </html>
             """.trimIndent(),
